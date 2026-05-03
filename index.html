@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VisionZen</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #0f1115;
+        color: #f4f6fb;
+      }
+      main {
+        max-width: 42rem;
+        padding: 2rem;
+        line-height: 1.5;
+      }
+      h1 {
+        margin: 0 0 0.5rem;
+        font-size: clamp(2rem, 5vw, 3.5rem);
+      }
+      p {
+        margin: 0.6rem 0;
+        color: #c5cadd;
+      }
+      a {
+        color: #8ab4ff;
+      }
+      code {
+        background: #1a1f2a;
+        padding: 0.15rem 0.35rem;
+        border-radius: 0.35rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>VisionZen</h1>
+      <p>Universal link and handoff page for the wearable integration.</p>
+      <p>
+        This site exists so Meta Wearables can point to a real HTTPS origin during
+        registration and app linking.
+      </p>
+      <p>App callback target: <code>visionzen://</code></p>
+    </main>
+  </body>
+</html>
